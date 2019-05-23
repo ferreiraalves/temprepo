@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!--Título e Menu para Navegação-->
+		<title>Monta Bandas</title>
+	</header>
+	<head>
+	<div class="Cabeçalho">
+		<h1 id="Titulo">
+			<i class="fas fa-headphones"></i>
+				Monta-Bandas
+		</h1>
+			<input type = "checkbox" id = "check">
+			<label for = "check" class = "Mostrar-Menu">
+				<i class = "fas fa-bars"></i>
+			</label>
+
+		<ul class="Menu">
+			<a href="lista.html">Home</a>
+			<a href="cadastro.html">Cadastro</a>
+			<a href="contato.html">Fale conosco</a>
+			<input type = "checkbox" id = "check">
+			<label for = "check" class = "Esconder-Menu">
+				<i class = "fas fa-times"></i>
+			</label>
+		</ul>
+	</div>
+</head>
+<body>
+	<br>
+	<!-- <div class="Conteudo">
+		<p id="titulo-principal">Encontre a sua Banda</p>
+		<br>
+		<span>
+		<p>
+			<img src="img/banda.jpg" class="foto-banda"><br>A maneira mais simples de conectar o Mundo por meio da Música. Crie seu perfil como música ou como grupo e nós vamos ajudar a encontrar alguém do seu perfil para criarem o seu grupo.
+			<img src="img/solista.jpg" class="foto-solista"><br>Defina suas preferências por estilo, ou por experiência.<br>Se a distância é um problema ou se o horário dificulta, nosso cadastro tem a melhor maneira para te indicar o melhor grupo possível.
+	</div> -->
+<div class="w3-container" style="padding: 5% 10%">
+	  <ul class="w3-ul w3-card-4" id="grid-main-user"></ul>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="fakedb.js"></script>
+	<script>
+			exibeContatos();
+	</script>
